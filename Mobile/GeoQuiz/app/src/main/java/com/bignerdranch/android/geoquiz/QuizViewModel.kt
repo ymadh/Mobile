@@ -18,6 +18,7 @@ class QuizViewModel : ViewModel() {
     )
 
      var currentIndex = 0
+    var isCheater = false
 
     // convient ways of looking things up
     // using a getter is better than public vars
